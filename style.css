@@ -1,0 +1,86 @@
+.Container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+.box1{
+        height:350px;
+        width:1200px; 
+        background-image: url('hotel.png');
+        background-repeat: no-repeat;
+        border:1px solid darkmagenta;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+    } 
+.box2,.box4{
+        display:flex;
+        flex-direction: row-reverse;
+        width:800px;
+        justify-content: space-between;
+    }
+.box3{
+        display:flex;
+        flex-direction: row;
+        width:800px;
+        justify-content: space-between;
+    }
+img{
+        height:15rem;
+        width:24rem;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+.innerbox{
+        height:15rem;
+        width:20rem;
+        display:flex;
+        flex-direction:column;
+        justify-content: start;
+        margin:5px;
+        padding:5px;
+}
+.box5{
+        height:150px;
+        width:90vw;
+        border: 1px solid darkgreen;
+        background-color:bisque;
+        box-sizing: border-box;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+p{
+    overflow: auto;
+}
+.parabox{
+    border:1px solid darkviolet;
+    box-sizing: border-box;
+    margin:10px;
+    padding:10px;
+    border-radius: 7px;
+}
+.Firstbox{
+    width:100vw;
+    height:150px;
+    margin:0%;
+    padding: 0%;
+    display: flex;
+    background-color: cornflowerblue;
+    justify-content: space-between;
+}
+a{
+    list-style-type: none;
+    text-decoration: none;
+}
+#bookmark{
+    display:flex;
+    justify-content: space-evenly;
+    gap:10px;
+}
