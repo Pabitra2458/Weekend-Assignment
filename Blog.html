@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+        .container1,.container2{
+            display:flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap:10px;
+        }
+        img{
+            width:700px;
+            height: 300px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .box1,.box2{
+            align-self: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <nav class="navcontainer">
+            <ul class="navbox">
+                <li>
+                    <p class="navname">Learn More</p>
+                </li>
+                <li class="bookmark">
+                    <a href="index.html">Home</a>
+                    <a href="Blog.html">Blog</a>
+                    <a href="Gallery.html">Gallery</a>
+                    <a href="Products.html">Products</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <h1 style="text-align: center;font-size: 50px;margin:20px">Blog</h1>
+    <div class="container1">
+        <img src="i1.jpg" alt="Imaghjh">
+        <div class="box1">
+           <b style="font-size: 30px;">Blog Post One</b>
+           <h5>Jun 15,2025</h5>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Quo laudantium repellat consequatur saepe, quis similique, necessitatibus pariatur amet <br> molestiae rerum modi in, praesentium sunt. Asperiores nihil officia excepturi <br>ipsa beatae optio, cumque praesentium modi illo iusto soluta mollitia ipsam <br>itaque perferendis incidunt quod eum veritatis doloremque tempora enim. Impedit, iure.</p>
+    </div>
+    <br><br>
+    <div class="container2">
+        <img src="i2.jpg" alt="Imaghjh">
+        <div class="box2">
+           <b style="font-size: 30px;">Blog Post Two</b>
+           <h5>Jun 15,2025</h5>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Quo laudantium repellat consequatur saepe, quis similique, necessitatibus pariatur amet <br> molestiae rerum modi in, praesentium sunt. Asperiores nihil officia excepturi <br>ipsa beatae optio, cumque praesentium modi illo iusto soluta mollitia ipsam <br>itaque perferendis incidunt quod eum veritatis doloremque tempora enim. Impedit, iure.</p>
+    </div>
+</body>
+</html>
