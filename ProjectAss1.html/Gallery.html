@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        img{
+            height:200px;
+            width:400px;
+            border-radius: 10px;
+            box-sizing: border-box;
+            margin:10px;
+        }
+        .box{
+            width:100%;
+            display:flex;
+            flex-direction:column;
+            flex-wrap:wrap;
+            text-align: center;
+        }
+        @media (max-width: 576px)
+        {
+          .box{
+            flex:1 0 100%;
+          }
+        }
+        @media (min-width:577px) and (max-width:980px)
+        {
+          .box{
+            flex:1 0 50%;
+          }
+        }
+        @media (min-width:981px)
+        {
+          .box{
+            flex:1 0 25%;
+          }
+        }
+     </style>
+</head>
+<body>
+    <h1 style="font-size:50px; text-align:center">Gallery</h1>
+    <div class="box">
+          <div class="boxes">
+           <img src="i16.jpg" alt="Image 1">
+           <img src="i12.jpg" alt="Image 2">
+         </div>
+         <div class="boxes">
+            <img src="i3.jpg" alt="Image 3">
+            <img src="i4.jpg" alt="Image 4">
+         </div> 
+         <div class="boxes">
+           <img src="i5.jpg" alt="Image 5">
+           <img src="i6.jpg" alt="Image 6">
+         </div> 
+         <div class="boxes">
+           <img src="i17.jpg" alt="Image 7">
+           <img src="i8.jpg" alt="Image 8">        
+         </div> 
+         <div class="boxes">
+           <img src="i9.jpg" alt="Image 9">      
+           <img src="i10.jpg" alt="Image 10">
+         </div>
+     </div>
+</body>
+</html>
