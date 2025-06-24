@@ -12,7 +12,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
     <style>
         table,th,td{
             border: 1px solid black;
@@ -45,21 +44,31 @@
             width:100%;
           }
         }
+        .navcontainer{
+            width:100%;
+           display:flex;
+           justify-content: space-between;
+        }
+        #bookmark{
+            list-style-type: none;
+            display:flex;
+            justify-content: space-evenly;
+            gap:10px;
+        }
+        a{
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
-    <div>
+    <div class="Firstbox">
         <nav class="navcontainer">
-            <ul class="navbox">
-                <li>
-                    <p class="navname">Learn More</p>
-                </li>
-                <li class="bookmark">
-                    <a href="index.html">Home</a>
-                    <a href="Blog.html">Blog</a>
-                    <a href="Gallery.html">Gallery</a>
-                    <a href="Products.html">Products</a>
-                </li>
+             <span style="font-family: 'Times New Roman', Times, serif;font-size:50px;color:chartreuse">Contact Us</span>
+             <ul id="bookmark">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Products.html">Products</a></li>
             </ul>
         </nav>
     </div>

@@ -74,5 +74,6 @@ img{
     margin:10px;
     padding:10px;
     border-radius: 7px;
+    overflow-y: auto;
 }
 
