@@ -6,43 +6,64 @@
     <title>Document</title>
     <!-- <link rel="stylesheet" href="style.css"> -->
     <style>
-        .container1,.container2{
+        .container{
             display:flex;
             flex-direction: column;
-            flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            gap:10px;
         }
         img{
-            width:700px;
-            height: 300px;
-            text-align: center;
-            border-radius: 5px;
+            height:300px;
+            width:800px;
+            border-radius: 15px;
+            box-sizing: border-box;
+            margin:5px 2px;
         }
         .box1,.box2{
-            align-self: center;
+            height:auto;
+            width:60%;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        h1{
+            text-align: center;
+            font-size: 3rem;
+            font-weight:bolder;
+        }
+        .name{
+            margin-bottom: 0%; 
+            font-size: xx-large;
+        }
+        .para{
+            font-size: 1rem;
+            letter-spacing: 1.5px;
+            word-spacing: 3px;
+            font-weight: bold;
+
         }
     </style>
 </head>
 <body>
-    <h1 style="text-align: center;font-size: 50px;margin:20px">Blog</h1>
-    <div class="container1">
-        <img src="i1.jpg" alt="Imaghjh">
+    <h1>Blog</h1>
+    <div class="container">
         <div class="box1">
-           <b style="font-size: 30px;">Blog Post One</b>
-           <h5>Jun 15,2025</h5>
+            <img src="i13.jpg" alt="">
+            <span class="innerbox1">
+                <p class="name">Blog Post One</p>
+                <p>Jun 15 2025</p>
+            </span>
+          <p class="para">A charming lounge adorned with a pristine billiards table invites you to unwind in style. <br> The striped canopies, wooden accents, and open-air seating blend sophistication with serenity, <br> offering the perfect setting for leisurely afternoons or intimate conversations.</p>
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Quo laudantium repellat consequatur saepe, quis similique, necessitatibus pariatur amet <br> molestiae rerum modi in, praesentium sunt. Asperiores nihil officia excepturi <br>ipsa beatae optio, cumque praesentium modi illo iusto soluta mollitia ipsam <br>itaque perferendis incidunt quod eum veritatis doloremque tempora enim. Impedit, iure.</p>
-    </div>
-    <br><br>
-    <div class="container2">
-        <img src="i2.jpg" alt="Imaghjh">
-        <div class="box2">
-           <b style="font-size: 30px;">Blog Post Two</b>
-           <h5>Jun 15,2025</h5>
+        <br><br>
+         <div class="box2">
+            <img src="i14.jpg" alt="">
+            <span>
+                <p class="name">Blog Post Two</p>
+                <p>Jun 16 2025</p>
+            </span>
+            <p class="para"> The lush garden café radiates tropical elegance. <br> Surrounded by vibrant greenery and the gentle hum of nature, <br> the outdoor bar and seating promise a refreshing escape from the ordinary. <br> Every corner here tells a story of timeless beauty and impeccable hospitality.</p>
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Quo laudantium repellat consequatur saepe, quis similique, necessitatibus pariatur amet <br> molestiae rerum modi in, praesentium sunt. Asperiores nihil officia excepturi <br>ipsa beatae optio, cumque praesentium modi illo iusto soluta mollitia ipsam <br>itaque perferendis incidunt quod eum veritatis doloremque tempora enim. Impedit, iure.</p>
     </div>
 </body>
 </html>

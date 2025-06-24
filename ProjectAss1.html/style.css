@@ -12,19 +12,6 @@ a{
     justify-content: space-evenly;
     gap:10px;
 }
-::-webkit-scrollbar{
-    border-radius: 10px;
-    background-color: aqua;
-}
-::-webkit-scrollbar-track{
-    border-radius: 5px;
-    background-color: transparent;
-}
-::-webkit-scrollbar-thumb{
-    border-radius: 10px;
-    background-color:cornflowerblue;
-    border:2px solid black; 
-}
 .Container{
         display: flex;
         flex-direction: column;
@@ -87,6 +74,5 @@ img{
     margin:10px;
     padding:10px;
     border-radius: 7px;
-    overflow-y: auto;
 }
 
