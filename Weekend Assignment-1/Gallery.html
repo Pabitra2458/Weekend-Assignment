@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
      <style>
+        *{
+          margin:0%;
+          padding:0%;
+          box-sizing: border-box;
+        }
         img{
             height:200px;
             width:400px;
@@ -37,34 +42,58 @@
             flex:1 0 25%;
           }
         }
-        .navcontainer{
-            width:100%;
-            display:flex;
-            justify-content: space-between;
-        }
-       #bookmark{
-           list-style-type: none;
-           display:flex;
-           justify-content: space-evenly;
-           gap:10px;
-        }
         a{
-          text-decoration: none;
+              text-decoration: none;
+              font-size: 1.5rem;
+        }
+        nav{
+             width:100%;
+        }
+        #navlist{
+              width:100%;
+              list-style-type: none;
+              display:flex;
+              justify-content: space-between;
+              align-items: center;
+             padding:15px;
+        }
+        #bookmark{
+            display:flex;
+            gap:10px;
+        }
+        .navcontainer{
+             width:100vw;
+             background: #ded11f;
+             background: linear-gradient(90deg, rgba(222, 209, 31, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+             min-height: 80px; 
+             display:flex;
+             justify-content: center;
+             align-items:center;
+             position: relative;
         }
      </style>
 </head>
 <body>
-    <div class="Firstbox">
-        <nav class="navcontainer">
-             <span style="font-family: 'Times New Roman', Times, serif;font-size:50px;color:chartreuse">Contact Us</span>
-             <ul id="bookmark">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Gallery.html">Gallery</a></li>
-                <li><a href="Blog.html">Blog</a></li>
-                <li><a href="Products.html">Products</a></li>
+   <header>
+    <div class="navcontainer">
+        <nav>
+             <ul id="navlist">
+                <li>
+                    <p style="font-family: 'Times New Roman', Times, serif;font-size:50px;margin-left:5px;">Contact Us</p>
+                </li>
+                <li>
+                    <div id="bookmark">
+                         <a href="index.html">Home</a>
+                         <a href="Gallery.html">Gallery</a>
+                         <a href="Blog.html">Blog</a>
+                         <a href="Products.html">Products</a>
+                    </div>
+                </li>
             </ul>
         </nav>
     </div>
+    </header>
+    <br><br>
     <h1 style="font-size:50px; text-align:center">Gallery</h1>
     <div class="box">
           <div class="boxes">
