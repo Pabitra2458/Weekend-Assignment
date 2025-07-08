@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        *{
+            margin:0%;
+            padding:0%;
+            box-sizing: border-box;
+        }
+        .container{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        img{
+            height:300px;
+            width:800px;
+            border-radius: 15px;
+            box-sizing: border-box;
+            margin:5px 2px;
+        }
+        .box1,.box2{
+            height:auto;
+            width:60%;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        h1{
+            text-align: center;
+            font-size: 3rem;
+            font-weight:bolder;
+        }
+        .name{
+            margin-bottom: 0%; 
+            font-size: xx-large;
+            font-weight: 600;
+        }
+        .para{
+            font-size: 1rem;
+            letter-spacing: 1.5px;
+            word-spacing: 3px;
+            font-weight: bold;
+
+        }
+        .innerbox{
+            margin: 10px;
+        }
+        a{
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+        nav{
+             width:100%;
+        }
+        #navlist{
+             width:100%;
+             list-style-type: none;
+             display:flex;
+             justify-content: space-between;
+             align-items: center;
+             padding:15px;
+        }
+        #bookmark{
+             display:flex;
+             gap:10px;
+        }
+        .navcontainer{
+               width:100vw;
+              background: #ded11f;
+              background: linear-gradient(90deg, rgba(222, 209, 31, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+              min-height: 80px; 
+              display:flex;
+              justify-content: center;
+              align-items:center;
+              position: relative;
+        }
+        ::-webkit-scrollbar{
+             display:none;
+        }
+    </style>
+</head>
+<body style="margin-bottom: 10px;">
+   <header>
+    <div class="navcontainer">
+        <nav>
+             <ul id="navlist">
+                 <li>
+                    <p></p>
+                </li>
+                <li>
+                    <div id="bookmark">
+                         <a href="index.html">Home</a>
+                         <a href="Gallery.html">Gallery</a>
+                         <a href="Blog.html">Blog</a>
+                         <a href="Products.html">Products</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <br><br>
+    <h1>Blog</h1>
+    <div class="container">
+        <div class="box1">
+            <img src="i13.jpg" alt="">
+            <span class="innerbox">
+                <p class="name">Blog Post One</p>
+                <p>Jun 15 2025</p>
+            </span>
+          <p class="para">A charming lounge adorned with a pristine billiards table invites you to unwind in style. <br> The striped canopies, wooden accents, and open-air seating blend sophistication with serenity, <br> offering the perfect setting for leisurely afternoons or intimate conversations.</p>
+        </div>
+        <br><br>
+         <div class="box2">
+            <img src="i14.jpg" alt="">
+            <span class="innerbox">
+                <p class="name">Blog Post Two</p>
+                <p>Jun 16 2025</p>
+            </span>
+            <p class="para"> The lush garden café radiates tropical elegance. <br> Surrounded by vibrant greenery and the gentle hum of nature, <br> the outdoor bar and seating promise a refreshing escape from the ordinary. <br> Every corner here tells a story of timeless beauty and impeccable hospitality.</p>
+        </div>
+    </div>
+</body>
+</html>

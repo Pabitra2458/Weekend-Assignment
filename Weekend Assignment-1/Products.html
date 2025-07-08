@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0%;
+            padding:0%;
+            box-sizing: border-box;
+        }
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            box-sizing: border-box;
+            padding:20px;
+            margin:20px;
+            font-size:40px;
+        }
+        h1{
+            font-size:80px;
+            text-align: center;
+        }
+        @media (max-width:576px)
+        {
+            h1{
+                text-align: center;
+            }
+          .table{
+            width:100%;
+          }
+        }
+        @media (min-width:577px) and (max-width:980px)
+        {
+            h1{
+                text-align: center;
+            }
+          .table{
+            width:100%;
+          }
+        }
+        a{
+           text-decoration: none;
+           font-size: 1.5rem;
+        }
+        nav{
+           width:100%;
+        }
+        #navlist{
+           width:100%;
+           list-style-type: none;
+           display:flex;
+           justify-content: space-between;
+           align-items: center;
+           padding:15px;
+        }
+        #bookmark{
+            display:flex;
+            gap:10px;
+        }
+        .navcontainer{
+              width:100vw;
+              background: #ded11f;
+              background: linear-gradient(90deg, rgba(222, 209, 31, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+              min-height: 80px; 
+              display:flex;
+             justify-content: center;
+             align-items:center;
+             position: relative;
+        }
+        ::-webkit-scrollbar{
+            display:none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <div class="navcontainer">
+        <nav>
+             <ul id="navlist">
+                <li>
+                    <p></p>
+                </li>
+                <li>
+                    <div id="bookmark">
+                         <a href="index.html">Home</a>
+                         <a href="Gallery.html">Gallery</a>
+                         <a href="Blog.html">Blog</a>
+                         <a href="Products.html">Products</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <h1>PRODUCTS</h1>
+    <table style="width:70%;margin-left:200px;">
+        <tr>
+            <th rowspan="3">Locations</th>
+            <th colspan="4">PRODUCTS</th>
+            <tr>
+                <th colspan="2">Categories</th>
+                <th rowspan="2">Prices</th>
+            </tr>
+            <tr>
+                <td>Lifestyle</td>
+                <td>Utility</td>
+            </tr>
+        </tr>
+        <tr>
+            <th rowspan="2">Cuttack</th>
+            <th rowspan="2">
+                 Gym and <br>
+                   Sport  <br>
+                 Equipment
+            </th>
+            <th rowspan="2">
+                Farm and <br>
+                Mechanical
+            </th>
+            <td>Text1</td>
+        </tr>
+        <tr><td>Text1</td></tr>
+        <tr>
+            <th rowspan="4">Patna</th>
+            <td>Text1</td>
+            <td>Text1</td>
+            <td>Text1</td>
+        </tr>
+        <tr>
+            <td>Text1</td>
+            <td>Text1</td>
+            <td>Text1</td>
+        </tr>
+        <tr>
+            <td>Text1</td>
+            <td>Text1</td>
+            <td rowspan="2">Text1</td>
+        </tr>
+        <tr>
+            <td>Text1</td>
+            <td>Text1</td>
+        </tr>
+        <tr>
+            <th>Kolkata</th>
+            <td colspan="2">Text1</td>
+            <td>Text1</td>
+        </tr>
+        <tr>
+            <th>Chennai</th>
+            <td colspan="2">Text1</td>
+            <td>Text1</td>
+        </tr>
+    </table>
+</body>
+</html>
+</body>
+</html>
